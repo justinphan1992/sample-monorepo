@@ -1,0 +1,19 @@
+{  
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@justin/shared": ["packages/shared/src"],      
+    }
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "**/__tests__/*", "babel.config.js", "metro.config.js", "jest.config.js"]
+}
